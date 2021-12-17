@@ -9,7 +9,7 @@ import Destination from '../pages/Destination';
 export default class Website extends Component {
   render(){
     return (
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <div className="Website">
           <Nav/>
           <main className='Website__main'>
