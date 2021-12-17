@@ -1,0 +1,123 @@
+.Home
+    padding: 50px 25px
+    color: white
+    display: flex
+    flex-direction: column
+    text-align: center
+    font-family: 'Barlow Condensed'
+    height: calc(100vh - 130px)
+    min-height: 650px
+    @media (min-width: 520px)
+        padding: 50px 40px
+        height: calc(100vh - 173px)
+        min-height: 600px
+    @media (min-width: 1000px)
+        flex-direction: row
+        height: calc(100vh - 180px)
+        min-height: 480px
+        justify-content: space-between
+        padding: 130px 170px
+    &__about
+        @media (min-width: 1000px)
+            display: flex
+            flex-direction: column
+            justify-content: flex-end
+            width: 500px
+            text-align: left
+    &__h3
+        text-transform: uppercase
+        font-size: 20px
+        letter-spacing: 2px
+        font-weight: normal
+        color: var(--secondColor)
+        @media (min-width: 1000px)
+            font-size: 1.7rem
+    &__h1
+        font-family: 'Bellefair'
+        text-transform: uppercase
+        font-weight: normal
+        font-size: 80px
+        margin: 25px 0
+        @media (min-width: 520px)
+            font-size: 120px
+
+    &__p
+        color: var(--secondColor)
+        line-height: 1.7rem
+        padding: 0 30px
+        @media (min-width: 520px)
+            padding: 0 60px
+            min-width: 440px
+            width: 100%
+            max-width: 640px
+            margin: 0 auto
+        @media (min-width: 1000px)
+            padding: 0 60px 0 0
+            line-height: 2rem
+            font-size: 1.2rem
+            margin: 0
+    &__button
+        flex-grow: 1
+        display: flex
+        justify-content: center
+        align-items: flex-end
+        margin-top: 100px
+        height: 100%
+        @media (min-width: 520px)
+            margin-top: 50px
+        @media (min-width: 1000px)
+            flex-grow: 0
+
+        & a
+            display: block
+            height: 150px
+            width: 150px
+            background-color: var(--thirdColor)
+            line-height: 155px
+            border-radius: 50%
+            text-decoration: none
+            color: black
+            font-family: 'Bellefair'
+            font-size: 1.4rem
+            cursor: pointer
+            position: relative
+            z-index: 2
+            @media (min-width: 520px)
+                width: 200px
+                height: 200px
+                line-height: 200px
+                font-size: 1.8rem
+            @media (min-width: 1000px)
+                width: 250px
+                height: 250px
+                line-height: 250px
+                font-size: 2.1rem
+                margin-bottom: 50px
+            &::after
+                content: ""
+                width: 150px
+                height: 150px
+                border-radius: 50%
+                position: absolute
+                top: 50%
+                left: 50%
+                transform: translate(-50%,-50%)
+                background-color: var(--thirdColor)
+                opacity: .6
+                z-index: -1
+                transition: .3s
+                @media (min-width: 520px)
+                    width: 200px
+                    height: 200px
+                @media (min-width: 1000px)
+                    width: 250px
+                    height: 250px
+            &:hover::after
+                width: 200px
+                height: 200px
+                @media (min-width: 520px)
+                    width: 250px
+                    height: 250px
+                @media (min-width: 1000px)
+                    height: 300px
+                    width: 300px

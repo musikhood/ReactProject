@@ -3,12 +3,18 @@
 @import "variables"
 @import "normalize"
 @import "Nav"
+@import "Home"
 .Website
     display: flex
     flex-direction: column
     min-height: 100vh
+    min-width: 360px
     background-image: url('../images/home/background-home-mobile.jpg')
     background-repeat: no-repeat
     background-size: cover
+    @media (min-width: 520px)
+        background-image: url('../images/home/background-home-tablet.jpg')
+    @media (min-width: 1000px)
+        background-image: url('../images/home/background-home-desktop.jpg')
     &__main
         flex-grow: 1
