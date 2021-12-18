@@ -1,19 +1,30 @@
 {
   "files": {
-    "main.css": "/ReactProject/static/css/main.cfbdb103.css",
-    "main.js": "/ReactProject/static/js/main.2f81ed58.js",
+    "main.css": "/ReactProject/static/css/main.1d7ca2f2.css",
+    "main.js": "/ReactProject/static/js/main.1c456eec.js",
     "static/media/background-home-desktop.jpg": "/ReactProject/static/media/background-home-desktop.cdf3864ecbfdf20e8c3b.jpg",
+    "static/media/image-moon.png": "/ReactProject/static/media/image-moon.d287d07182de3015952f.png",
+    "static/media/background-destination-desktop.jpg": "/ReactProject/static/media/background-destination-desktop.468b922c69bf5499b4bc.jpg",
+    "static/media/image-europa.png": "/ReactProject/static/media/image-europa.3e95f7d0a16fe2ebf4c6.png",
     "static/media/background-home-tablet.jpg": "/ReactProject/static/media/background-home-tablet.bc9efcc3281fa6801077.jpg",
+    "static/media/image-mars.png": "/ReactProject/static/media/image-mars.1b224c8663251270d79f.png",
+    "static/media/background-crew-desktop.jpg": "/ReactProject/static/media/background-crew-desktop.88a3c692fd34eb311e04.jpg",
+    "static/media/background-destination-tablet.jpg": "/ReactProject/static/media/background-destination-tablet.8f55d346d8b6cfd95ab7.jpg",
+    "static/media/image-titan.png": "/ReactProject/static/media/image-titan.d4b078f9ce17e686ae99.png",
+    "static/media/background-technology-desktop.jpg": "/ReactProject/static/media/background-technology-desktop.b7b589b3c0c5ef0811d4.jpg",
+    "static/media/background-crew-tablet.jpg": "/ReactProject/static/media/background-crew-tablet.16d51cf61e98ce45eb61.jpg",
     "static/media/background-home-mobile.jpg": "/ReactProject/static/media/background-home-mobile.13f7adecbcb3c3f170d8.jpg",
+    "static/media/background-technology-tablet.jpg": "/ReactProject/static/media/background-technology-tablet.48c38b028217ee0096c4.jpg",
+    "static/media/background-destination-mobile.jpg": "/ReactProject/static/media/background-destination-mobile.e0131e27e751ead1a922.jpg",
     "index.html": "/ReactProject/index.html",
     "static/media/logo.svg": "/ReactProject/static/media/logo.565f7f2c0534403f11b71994f4311210.svg",
     "static/media/icon-close.svg": "/ReactProject/static/media/icon-close.d47fda63cbd8b3fedbbc1b2a53f64470.svg",
     "static/media/icon-hamburger.svg": "/ReactProject/static/media/icon-hamburger.5273efa7c50e96ef3e51e7a2b54048ce.svg",
-    "main.cfbdb103.css.map": "/ReactProject/static/css/main.cfbdb103.css.map",
-    "main.2f81ed58.js.map": "/ReactProject/static/js/main.2f81ed58.js.map"
+    "main.1d7ca2f2.css.map": "/ReactProject/static/css/main.1d7ca2f2.css.map",
+    "main.1c456eec.js.map": "/ReactProject/static/js/main.1c456eec.js.map"
   },
   "entrypoints": [
-    "static/css/main.cfbdb103.css",
-    "static/js/main.2f81ed58.js"
+    "static/css/main.1d7ca2f2.css",
+    "static/js/main.1c456eec.js"
   ]
 }
