@@ -28,10 +28,10 @@ export default class Nav extends React.Component{
                  alt="hamburger"/>
                 <div className='Nav__line'></div>
                 <ul className={this.state.menuActive ? 'Nav__ul NavActive' : 'Nav__ul' }>
-                    <li className='Nav__li'><NavLink to="/" exact><span>00</span> Home</NavLink></li>
-                    <li className='Nav__li'><NavLink to="/destination" ><span>01</span> Destination</NavLink></li>
-                    <li className='Nav__li'><NavLink to="/crew" ><span>02</span> Crew</NavLink></li>
-                    <li className='Nav__li'><NavLink to="/technology" ><span>03</span> Technology</NavLink></li>
+                    <li onClick={this.props.func} className='Nav__li'><NavLink to="/" exact><span>00</span> Home</NavLink></li>
+                    <li onClick={this.props.func} className='Nav__li'><NavLink to="/destination" ><span>01</span> Destination</NavLink></li>
+                    <li onClick={this.props.func} className='Nav__li'><NavLink to="/crew" ><span>02</span> Crew</NavLink></li>
+                    <li onClick={this.props.func} className='Nav__li'><NavLink to="/technology" ><span>03</span> Technology</NavLink></li>
                 </ul>
             </nav>
         )

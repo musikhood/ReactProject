@@ -16,7 +16,9 @@ class Home extends React.Component {
                     </p>
                 </div>
                 <div className='Home__button'>
-                    <NavLink to="/destination" exact>EXPLORE</NavLink>
+                    <div onClick={this.props.func}>
+                        <NavLink to="/destination" exact>EXPLORE</NavLink>
+                    </div>
                 </div>
             </main>
         )
