@@ -1,20 +1,20 @@
 .Home
-    padding: 50px 25px
+    padding: 0 15px 50px 15px
     color: white
     display: flex
     flex-direction: column
     text-align: center
     font-family: 'Barlow Condensed'
     height: calc(100vh - 130px)
-    min-height: 650px
+    min-height: 600px
     @media (min-width: 520px)
-        padding: 50px 40px
+        padding: 20px 40px 50px 40px
         height: calc(100vh - 173px)
-        min-height: 600px
+        min-height: 700px
     @media (min-width: 1000px)
         flex-direction: row
         height: calc(100vh - 180px)
-        min-height: 480px
+        min-height: 550px
         justify-content: space-between
         padding: 130px 170px
     &__about
@@ -30,43 +30,53 @@
         letter-spacing: 2px
         font-weight: normal
         color: var(--secondColor)
+        font-size: 1.4rem
+        margin-top: 30px
+        @media (min-width: 520px)
+            margin-top: 0
+            font-size: 1.6rem
         @media (min-width: 1000px)
-            font-size: 1.7rem
+            font-size: 1.8rem
     &__h1
         font-family: 'Bellefair'
         text-transform: uppercase
         font-weight: normal
-        font-size: 80px
+        font-size: 100px
         margin: 25px 0
         @media (min-width: 520px)
-            font-size: 120px
+            font-size: 140px
+        @media (min-width: 1000px)
+            font-size: 160px
 
     &__p
         color: var(--secondColor)
         line-height: 1.7rem
         padding: 0 30px
+        font-size: 1.2rem
         @media (min-width: 520px)
             padding: 0 60px
-            min-width: 440px
+            min-width: 390px
             width: 100%
-            max-width: 640px
+            max-width: 540px
             margin: 0 auto
+            font-size: 1.3rem
         @media (min-width: 1000px)
             padding: 0 60px 0 0
             line-height: 2rem
-            font-size: 1.2rem
-            margin: 0
+            margin: 0 0 20px 0
     &__button
         flex-grow: 1
         display: flex
         justify-content: center
         align-items: flex-end
-        margin-top: 100px
         height: 100%
+        margin-bottom: 50px
         @media (min-width: 520px)
-            margin-top: 50px
+            margin-bottom: 0
         @media (min-width: 1000px)
             flex-grow: 0
+            margin-left: 100px
+            margin-top: 50px
 
         & a
             display: block
@@ -82,6 +92,7 @@
             cursor: pointer
             position: relative
             z-index: 2
+            margin-top: 50px
             @media (min-width: 520px)
                 width: 200px
                 height: 200px
@@ -92,7 +103,7 @@
                 height: 250px
                 line-height: 250px
                 font-size: 2.1rem
-                margin-bottom: 50px
+                margin-bottom: 80px
             &::after
                 content: ""
                 width: 150px
@@ -103,7 +114,7 @@
                 left: 50%
                 transform: translate(-50%,-50%)
                 background-color: var(--thirdColor)
-                opacity: .6
+                opacity: .2
                 z-index: -1
                 transition: .3s
                 @media (min-width: 520px)
