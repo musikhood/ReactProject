@@ -1,7 +1,11 @@
 {
   "files": {
-    "main.css": "/ReactProject/static/css/main.20774ab7.css",
-    "main.js": "/ReactProject/static/js/main.1c456eec.js",
+    "main.css": "/ReactProject/static/css/main.56500d95.css",
+    "main.js": "/ReactProject/static/js/main.36124a8e.js",
+    "static/media/image-victor-glover.png": "/ReactProject/static/media/image-victor-glover.8a9a5424588b73ec61c2.png",
+    "static/media/image-anousheh-ansari.png": "/ReactProject/static/media/image-anousheh-ansari.2d647128496ddc638acd.png",
+    "static/media/image-mark-shuttleworth.png": "/ReactProject/static/media/image-mark-shuttleworth.fc30f35b05fc0bc4ee47.png",
+    "static/media/image-douglas-hurley.png": "/ReactProject/static/media/image-douglas-hurley.7540fbb61923064f065e.png",
     "static/media/background-home-desktop.jpg": "/ReactProject/static/media/background-home-desktop.cdf3864ecbfdf20e8c3b.jpg",
     "static/media/image-moon.png": "/ReactProject/static/media/image-moon.d287d07182de3015952f.png",
     "static/media/background-destination-desktop.jpg": "/ReactProject/static/media/background-destination-desktop.468b922c69bf5499b4bc.jpg",
@@ -20,11 +24,11 @@
     "static/media/logo.svg": "/ReactProject/static/media/logo.565f7f2c0534403f11b71994f4311210.svg",
     "static/media/icon-close.svg": "/ReactProject/static/media/icon-close.d47fda63cbd8b3fedbbc1b2a53f64470.svg",
     "static/media/icon-hamburger.svg": "/ReactProject/static/media/icon-hamburger.5273efa7c50e96ef3e51e7a2b54048ce.svg",
-    "main.20774ab7.css.map": "/ReactProject/static/css/main.20774ab7.css.map",
-    "main.1c456eec.js.map": "/ReactProject/static/js/main.1c456eec.js.map"
+    "main.56500d95.css.map": "/ReactProject/static/css/main.56500d95.css.map",
+    "main.36124a8e.js.map": "/ReactProject/static/js/main.36124a8e.js.map"
   },
   "entrypoints": [
-    "static/css/main.20774ab7.css",
-    "static/js/main.1c456eec.js"
+    "static/css/main.56500d95.css",
+    "static/js/main.36124a8e.js"
   ]
 }
