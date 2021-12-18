@@ -1,0 +1,228 @@
+.Crew
+    color: white
+    font-family: 'Barlow Condensed'
+    padding: 40px 25px 20px 25px
+    height: calc(100vh - 130px)
+    position: relative
+    display: flex
+    flex-direction: column
+    @media (min-width: 520px)
+        height: calc(100vh - 134px)
+        padding: 40px 25px 0 25px
+        min-height: 650px
+    @media (min-width: 1000px)
+        height: calc(100vh - 180px)
+        flex-direction: row
+        min-height: 600px
+
+    &__h3
+        position: absolute
+        top: -15px
+        left: 50%
+        width: 100%
+        text-align: center
+        transform: translateX(-50%)
+        font-weight: normal
+        letter-spacing: 3px
+        font-size: 1.4rem
+        @media (min-width: 520px)
+            left: 120px
+        @media (min-width: 1000px)
+            left: 283px
+            top: 50px
+            font-size: 1.7rem
+        & span
+            font-weight: bold
+            color: var(--secondColor)
+            margin-right: 20px
+            letter-spacing: 0
+    &__img-wrapper
+        min-height: 300px
+        width: 300px
+        margin: 0 auto
+        position: relative
+        display: flex
+        justify-content: center
+        transition: 1s
+        @media (min-width: 520px)
+            order: 2
+            min-height: 350px
+
+        @media (min-width: 1000px)
+            height: 100%
+            display: flex
+            flex-direction: column
+            margin-right: 300px
+        &.person1
+            transform: translateX(0)
+        &.person2
+            transform: translateX(-600px)
+            @media (min-width: 520px)
+                transform: translateX(-1100px)
+            @media (min-width: 1000px)
+                transform: translateX(-2500px)
+        &.person3
+            transform: translateX(-1200px)
+            @media (min-width: 520px)
+                transform: translateX(-2200px)
+            @media (min-width: 1000px)
+                transform: translateX(-5000px)
+        &.person4
+            transform: translateX(-1800px)
+            @media (min-width: 520px)
+                transform: translateX(-3300px)
+            @media (min-width: 1000px)
+                transform: translateX(-7500px)
+    &__img
+        height: 100%
+        position: absolute
+        bottom: 0
+
+        @media (min-width: 1000px)
+            max-height: 750px
+            min-height: 550px
+
+        &:nth-of-type(1)
+            transform: translateX(0)
+        &:nth-of-type(2)
+            transform: translateX(600px)
+            @media (min-width: 520px)
+                transform: translateX(1100px)
+            @media (min-width: 1000px)
+                transform: translateX(2500px)
+        &:nth-of-type(3)
+            transform: translateX(1200px)
+            @media (min-width: 520px)
+                transform: translateX(2200px)
+            @media (min-width: 1000px)
+                transform: translateX(5000px)
+        &:nth-of-type(4)
+            transform: translateX(1800px)
+            @media (min-width: 520px)
+                transform: translateX(3300px)
+            @media (min-width: 1000px)
+                transform: translateX(7500px)
+    &__ul
+        display: flex
+        width: 100px
+        margin: 0 auto
+        padding: 10px 0
+        height: 70px
+        justify-content: center
+        @media (min-width: 1000px)
+            margin: 0
+    &__li
+        margin-left: 25px
+        font-size: 2.6rem
+        color: var(--secondColor)
+        cursor: pointer
+        transition: .3s
+        &:hover
+            color: #8a8a8a
+        &.active
+            color: #fff
+        &:nth-of-type(1)
+            margin-left: 55px
+    &__about-wrapper
+        flex-grow: 1
+        width: 100%
+        max-width: 400px
+        margin: 0 auto
+        display: flex
+        flex-direction: column
+        @media (min-width: 520px)
+            flex-direction: column-reverse
+        @media (min-width: 1000px)
+            max-width: 600px
+
+    &__about
+        position: relative
+        width: 100%
+        transition: 1s
+        transform: translateX(0)
+        bottom: 0
+        height: calc(100% - 70px)
+
+        & h3
+            font-family: 'Bellefair'
+            font-weight: normal
+            text-transform: uppercase
+            color: var(--secondColor)
+            font-size: 1.2rem
+            @media (min-width: 1000px)
+                font-size: 1.7rem
+        & h1
+            font-family: 'Bellefair'
+            font-weight: normal
+            text-transform: uppercase
+            font-size: 1.75rem
+            padding: 10px 0 20px
+            @media (min-width: 520px)
+                font-size: 2.25rem
+            @media (min-width: 1000px)
+                font-size: 3.5rem
+        & p
+            color: var(--secondColor)
+            display: block
+            width: 300px
+            margin: 0 auto
+            font-size: 1.1rem
+            @media (min-width: 520px)
+                width: 400px
+                line-height: 1.7rem
+            @media (min-width: 1000px)
+                margin: 0
+
+        &.person1
+            transform: translateX(0)
+        &.person2
+            transform: translateX(-600px)
+            @media (min-width: 520px)
+                transform: translateX(-1100px)
+            @media (min-width: 1000px)
+                transform: translateX(-2500px)
+        &.person3
+            transform: translateX(-1200px)
+            @media (min-width: 520px)
+                transform: translateX(-2200px)
+            @media (min-width: 1000px)
+                transform: translateX(-5000px)
+        &.person4
+            transform: translateX(-1800px)
+            @media (min-width: 520px)
+                transform: translateX(-3300px)
+            @media (min-width: 1000px)
+                transform: translateX(-7500px)
+        & div
+            width: 100%
+            height: 100%
+            position: absolute
+            bottom: 0
+            text-align: center
+
+            @media (min-width: 1000px)
+                display: flex
+                flex-direction: column
+                justify-content: center
+                text-align: left
+
+        & .crew1
+            left: 0
+        & .crew2
+            left: 600px
+            @media (min-width: 520px)
+                left: 1100px
+            @media (min-width: 1000px)
+                left: 2500px
+        & .crew3
+            left: 1200px
+            @media (min-width: 520px)
+                left: 2200px
+            @media (min-width: 1000px)
+                left: 5000px
+        & .crew4
+            left: 1800px
+            @media (min-width: 520px)
+                left: 3300px
+            @media (min-width: 1000px)
+                left: 7500px
